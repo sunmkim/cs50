@@ -1,3 +1,3 @@
-cs50
+CS50
 ====
 This is my code for problems sets of Harvard's CS50 class.
