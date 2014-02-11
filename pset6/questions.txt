@@ -1,0 +1,17 @@
+0.  Technically, the word refers to a lung disease that is caused when inhaling fine parts of silica or quartz.
+    It is, however, an invented term to only serve as the longest English word.
+1.  To get resource usage. In other words, it returns resource usage measures of various statistics.
+2.  Three members: RUSAGE_SELF, RUSAGE_CHILDREN and RUSAGE_THREAD.
+3.  before and after are pointers. It would probably be more efficient to just pass a pointer than actually inputting
+    the before and after values from the struct.
+4.  The for loop spell checks each word character-by-character. It appends chracters to the word array while ignoring
+    numbers and strings that have more than the given, fixed length. Then, once it reaches the end of the string, the function
+    prepares for a new word. Once a whole word is found, the current word in the word array is terminated, the counter is updated,
+    and the spelling is checked. If the word is misspelled, the function prints that word. Then it once again prepares
+    for the next word.
+5.  fgetc only deals with chracters, so we need not worry about non-characters like numbers or symbols.
+6.  The string parameters for check and load do not need to be altered within those functions.
+7.  I used hashtables. Each node was supposed to get a word and have a pointer to the next and formed a linked array.
+8.  n/a
+9.  n/a
+10. If collisions can be avoided or minimized (as it happens with hashtables), the program would be more efficient probably. 

@@ -1,0 +1,22 @@
+0.  The maximum BMP resolution is 24 bit, or 2^24. Thus, BMP can support 2^24 colors, or 16777216 colors. Gif supports up to 8 bits
+    per pixel, which means that a gif image can support upto 256 colors from a 24-bit RGB color palette. JPEG supports nearly 16.7 million
+    colors. PNG is similar to JPEG in that it also supports over 16 million colors.
+1.  Out of the four file formats, only GIF supports animation.
+2.  Lossless compressions means that an image is made smaller without sacrificing its quality. Lossy compression means that the image
+    is made small, but sacrifices the quality of the image.
+3.  Of the 4 file formats, only JPEG is lossy-compressed.
+4.  The file data is not actually deleted, but merely the referece to that data is deleted.
+5.  Completely destroy the hard-drive, corrupt it by running a magnet over it, or overwriting the data on the hard drive.
+6.  stdint.h is a header file that provides a set of typedefs that specify exact-width integer types and defines corresponding sets of macros.
+7.  They allow the programmer to define a typedef and define variables. In other words, they are a type of unsigned integer of a certain length. 
+8.  BYTE is 8 bits (1 byte); DWORD is 32 bits (4 bytes); LONG is 32 bits (4 bytes); and WORD is 16 bits (2 bytes).
+9.  In ASCII, the first 2 bytes of a BMP file is 'B' and then 'M.'
+10. The  bfSize is the size of the bitmap file, while biSize is the number of bytes required by the program's structure.
+11. When biHeight is negative, the bitmap is top down DIB and its origin is in the upper-left corner.
+12. biBitCount specifies the color depth.
+13. If outfile was not properly given in the command line, fopen may return NULL.
+14. Because there is only one object which the function reads.
+15. Padding will be 4.
+16. fseek sets the file position data in a given file.
+17. SEEK_CUR  seeks the origin value of fseek from the current location.
+18. Milo Banana dun it.
